@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.pyc
 __pycache__/
 .venv/
@@ -9,3 +10,53 @@ media/*
 staticfiles/
 .DS_Store
 *.log
+=======
+# Database
+*.sql.backup
+*.sql.bak
+*.dump
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if using Node.js)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+>>>>>>> 91975e976651db35d15f02ac1de1d7555154618c
